@@ -40,3 +40,23 @@ body {
 .nav-links a:hover {
   color: #ffcc00;
 }
+
+/* Banner section start here  */
+.bannder{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25vh;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/Travel\ banner.jpg");
+  background-repeat:round;
+  background-size: cover;
+  
+
+}
+.bannder h1{
+  font-weight: 900;
+  font-size: 40px;
+}
